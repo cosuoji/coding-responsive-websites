@@ -261,11 +261,21 @@ flex-flow: row wrap;
 
 .faq .content-wrapper
 {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
   /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -490,6 +500,76 @@ flex-flow: row wrap;
    @media screen and (min-width: 1200px) {
 
    /*Desktop styles here*/
+
+  /**Main Style**/
+
+   .content-wrapper
+   {
+     max-width: 960px;
+   }
+
+   /**Homepage**/
+
+   .hero-area h1{
+     width: 80%;
+   }
+   /**Aside**/
+
+   aside .content-wrapper {
+     margin: 50px 0;
+     display: flex;
+     justify-content: space-between;
+     flex-flow: row wrap;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+      width: 40%;
+
+  }
+
+
+      /* Features */
+      .features h2 {
+          width: 70%;
+      }
+
+      .features article {
+          flex-basis: 33.3%;
+      }
+
+      /* Reviews */
+      .reviews article div {
+          width: 50%;
+      }
+
+  /* ==========================================================================
+     About Page
+     ========================================================================== */
+      .mission h2,
+      .contact-section .content-wrapper h2 {
+          width: 73%;
+      }
+
+      .contact-section .content-wrapper h2 {
+          margin-bottom: 20px 0;
+      }
+
+
+  /* ==========================================================================
+     FAQ Page
+     ========================================================================== */
+      .faq h2 {
+          width: 100%;
+      }
+
+      .faq-content {
+          flex-basis: 50%;
+          display: flex;
+          justify-content: space-between;
+      }
+
+
 
    }
 
