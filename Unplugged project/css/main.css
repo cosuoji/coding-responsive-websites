@@ -113,6 +113,7 @@ header .content-wrapper
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header nav
@@ -121,6 +122,7 @@ header nav
   align-items: center;
   justify-content: space-around;
   flex-flow: row wrap;
+  width:60%;
 
 }
 
@@ -145,6 +147,39 @@ footer .social
   align-items: center;
 }
 
+footer .content-wrapper
+{
+  width: 55%;
+  margin: 50px 0;
+}
+
+.content-wrapper{
+  width: 90%;
+}
+
+.header-divider
+{
+  width: 100%;
+}
+
+header nav ul
+{
+  width: 40%;
+}
+
+/**Header Styles**/
+header{
+  padding: 15px 0;
+}
+
+/**Footer Styles **/
+footer p
+{
+  margin: 0px;
+}
+
+/***Homepage **/
+
 .hero-area {
   display: flex;
   justify-content: center;
@@ -167,6 +202,11 @@ aside
   flex-flow: row wrap;
 }
 
+.features article
+{
+  width: 55%;
+}
+
 .features .features-items
 {
   display: flex;
@@ -183,6 +223,14 @@ aside
   flex-flow: row wrap;
 }
 
+.reviews h3
+{
+  width: 80%;
+}
+
+.features p{
+  margin: 0px;
+}
 
 /**About Page ***/
 .mission
@@ -202,7 +250,7 @@ flex-flow: row wrap;
 }
 
 
-/***FAQ ***/ 
+/***FAQ ***/
 .faq
 {
   display: flex;
