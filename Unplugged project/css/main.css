@@ -144,7 +144,7 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
@@ -261,6 +261,9 @@ footer p
   justify-content: center;
   align-items: center;
   background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
