@@ -364,12 +364,12 @@ background-color: #527158;
   background-color: #2a423a;
 }
 
-.map  figure{
-  position: relative;
-  padding-bottom:80%;
-  height: 0;
-  overflow: hidden;
-  width:100%;
+.map figure{
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+   max-width: 100%;
 }
 
 .map iframe
