@@ -204,6 +204,11 @@ header nav ul
   align-items: center;
 }
 
+footer {
+  text-align: center;
+  flex-direction: column;
+}
+
 footer .social-icons
 {
   display: flex;
@@ -211,6 +216,16 @@ footer .social-icons
   align-items: center;
 }
 
+footer .social-icons p
+{
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 footer .social
 {
   display: flex;
@@ -396,6 +411,7 @@ background-color: #527158;
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  color: white;
 }
 
 .faq .content-wrapper
